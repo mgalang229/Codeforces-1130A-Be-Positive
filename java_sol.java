@@ -19,7 +19,7 @@ public class Main {
        if (pos > neg) {
            System.out.println(pos >= tmp ? 1 : 0);
        } else {
-           System.out.println(pos >= tmp ? -1 : 0);
+           System.out.println(neg >= tmp ? -1 : 0);
        }
     }
 }
