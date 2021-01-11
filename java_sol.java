@@ -11,7 +11,7 @@ public class Main {
            int a = in.nextInt();
            if (a > 0) {
                pos++;
-           } else {
+           } else if (neg < 0) {
                neg++;
            }
        }
